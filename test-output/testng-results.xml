@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-30T11:55:30Z" name="Default suite" finished-at="2025-09-30T11:56:47Z" duration-ms="77139">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:hrm.Runners.TestsRunner@7d61eb55]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-30T11:55:30Z" name="Default test" finished-at="2025-09-30T11:56:47Z" duration-ms="77139">
+      <class name="hrm.Runners.TestsRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:hrm.Runners.TestsRunner@7d61eb55]" started-at="2025-09-30T11:55:30Z" name="setUpClass" finished-at="2025-09-30T11:55:31Z" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:hrm.Runners.TestsRunner@7d61eb55]" started-at="2025-09-30T11:55:31Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-30T11:56:47Z" duration-ms="75890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user able to submit the claim"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Submit new claim]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:hrm.Runners.TestsRunner@7d61eb55]" started-at="2025-09-30T11:56:47Z" name="tearDownClass" finished-at="2025-09-30T11:56:47Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- hrm.Runners.TestsRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
