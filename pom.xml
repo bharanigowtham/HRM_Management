@@ -157,7 +157,7 @@
 
 							<includes>
 								<!-- UNCOMMENT BELOW LINE - To execute feature files with a single runner -->
-								<include>**/TestRunner.java</include>
+								<include>**/TestsRunner.java</include>
 
 								<!-- UNCOMMENT BELOW LINE - To execute feature files with multiple runners -->
 

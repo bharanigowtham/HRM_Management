@@ -8,8 +8,6 @@ import hrm.Pageobjects.Loginpage;
 import hrm.Utilities.ConfigpropertiesReader;
 import io.cucumber.java.en.Given;
 
-
-
 public class LoginandCommonStepDefinition  {
 	
 	private ConfigpropertiesReader config = new ConfigpropertiesReader();
