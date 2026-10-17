@@ -30,7 +30,6 @@ public class Hooks {
 		String operatingSystem = prop.getProperty("operatingsystem");
 		String browser = prop.getProperty("browser");
 		
-		
 		driverfactory = new DriverFactory();
 		driver = driverfactory.initDriver(runType, operatingSystem, browser);
 	}

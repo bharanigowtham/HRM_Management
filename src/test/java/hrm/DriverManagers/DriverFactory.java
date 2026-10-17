@@ -20,7 +20,6 @@ public class DriverFactory {
 	
 	public static ThreadLocal<WebDriver> thrdlocaldriver = new ThreadLocal<>();
 	
-	
 	public static WebDriver initDriver(String Runtype, String OS, String browser) throws Exception {
 		
 		if(Runtype.equalsIgnoreCase("remote"))
@@ -70,15 +69,15 @@ public class DriverFactory {
 				System.out.println("Provide correct browser name....");
 			}
 			
-			System.out.println("*********** LOCAL RUN STARTED *********");
-			System.out.println("Run type = " + Runtype);
-			System.out.println("OS = " + OS);
-			System.out.println("Browser = " + browser);
-	}
+			System.out.println("*********** LOCAL RUN STARTED *********");		
+	}	
+		System.out.println("Run type = " + Runtype);
+		System.out.println("OS = " + OS);
+		System.out.println("Browser = " + browser);
 		return getDriver();
 	}
 	
-	public static void setPlatform(MutableCapabilities options, String OS) 
+	public static void setPlatform (MutableCapabilities options, String OS) 
 	{
 	    if (OS.equalsIgnoreCase("windows")) {
 	        options.setCapability("platformName", "WINDOWS");

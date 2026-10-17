@@ -15,6 +15,9 @@ private WebDriver driver;
 		this.driver = driver;
 	}
 	
+	private By dashboardText = By.xpath("//h6[normalize-space()='Dashboard']");
+	
+	
 	public void clickonmodulename (String uname) throws InterruptedException {
 		try {
 			List<WebElement> allelem = driver.findElements(By.xpath("//div[@class='oxd-sidepanel-body']//ul//li//span"));

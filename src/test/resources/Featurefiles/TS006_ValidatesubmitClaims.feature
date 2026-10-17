@@ -1,4 +1,4 @@
-@Regression @TS006
+@Smoke @TS006 @All
 Feature: Submit new claim
 
 Background: As an admin I have to login into the system
@@ -16,6 +16,7 @@ And click on submit
 Examples:
 |Sheetname   | RowNo |
 |SubmitClaims|   0    |
+|SubmitClaims|   2    |
 
 
 

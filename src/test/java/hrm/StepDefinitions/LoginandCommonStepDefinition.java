@@ -2,8 +2,11 @@ package hrm.StepDefinitions;
 
 import java.util.Properties;
 
+import org.openqa.selenium.By;
+
 import hrm.DriverManagers.DriverFactory;
 import hrm.Hooks.Hooks;
+import hrm.Pageobjects.Helpers;
 import hrm.Pageobjects.Loginpage;
 import hrm.Utilities.ConfigpropertiesReader;
 import io.cucumber.java.en.Given;
@@ -38,6 +41,7 @@ public class LoginandCommonStepDefinition  {
 		loginpage.enterusername(username);
 		loginpage.enterpassword(password);
 		loginpage.clickloginbtn();
+		Thread.sleep(10000);
 	}
 	
 	

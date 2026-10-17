@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cucumber HRM Suite" parallel="methods" thread-count="2">
+
+    <test name="HRM Tests">
+        <classes>
+            <class name="hrm.Runners.TestsRunner"/>
+        </classes>
+    </test>
+
+</suite>

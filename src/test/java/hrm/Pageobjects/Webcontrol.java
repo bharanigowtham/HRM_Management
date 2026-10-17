@@ -20,12 +20,12 @@ public class Webcontrol {
 		try {
 			if (field.equalsIgnoreCase("Employment Status") || field.equalsIgnoreCase("Event") || field.equalsIgnoreCase("Currency")
 				|| field.equalsIgnoreCase("Expense Type")) {
-				Thread.sleep(2000);
+				Thread.sleep(800);
 				driver.findElement(By.xpath("(//div[@class='oxd-select-wrapper'])["+index+"]")).click();
-				Thread.sleep(2000);
+				Thread.sleep(500);
 				WebElement ele = driver.findElement(By.xpath("//div[@role='listbox']//div//span[contains(text(),'" + value + "')]"));
 //				Helpers.WaitforvisibilityofElement(ele, 30);
-				Thread.sleep(3000);
+				Thread.sleep(1000);
 				ele.click();
 				Thread.sleep(500);
 			}			
